@@ -1,0 +1,36 @@
+
+
+ul.manu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+ul.home {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 650px;
+    background-color: #D7DBDD;
+	font-size : 20px;
+}
+
+li {
+    display: block;
+    text-decoration: none;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 16px 0px 8px 0px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
